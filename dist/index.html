@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Digiflex</title>
+        <link rel="stylesheet" href="css/font-awesome.css" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/jquerymin.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid-lg page-wrapper">
+            <header class="header-wrapper">
+                <div class="row">
+                    <div class="col-lg-1 logo">
+                        <a href="index.html">
+                            <img src="assets/logo.png" alt="Digiflex" />
+                        </a>
+                    </div>
+                    <div class="col-lg-9 links">
+                        <ul>
+                            <li><a href="index.html" class="active">home</a></li>
+                            <li><a href="movies.html">movies</a></li>
+                            <li><a href="tvshows.html">tv shows</a></li>
+                            <li><a href="blog.html">blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 user-options">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-bookmark"></i></a>
+                            </li>
+                            <li><a href="login.html">account</a></li>
+                            <li id="user-logo">
+                                <a href="#"><i class="fa fa-user"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <section class="slider-wrapper">
+                <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide"
+                    data-ride="carousel"
+                >
+                    <ol class="carousel-indicators">
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="0"
+                            class="active"
+                        ></li>
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="1"
+                        ></li>
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="2"
+                        ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img
+                                src="assets/slide01.jpg"
+                                class="d-block w-100"
+                                alt="Slider"
+                            />
+                            <div class="overlay">
+                                <div class="movie-wrap">
+                                    <h6>new releases</h6>
+                                    <h2>inside women</h2>
+                                    <div class="movie-info">
+                                        <span id="movie-rate">
+                                            <span id="rate"> 4.8 </span>
+                                        </span>
+                                        <span>
+                                            <span id="imdb-stick"> IMDb </span>
+                                            Score
+                                        </span>
+                                        <p id="movie-date">2020</p>
+                                        <p id="quality-wrap">
+                                            <span id="movie-quality"> 4K </span>
+                                            <span id="movie-watch">
+                                                Ultra HD
+                                            </span>
+                                        </p>
+
+                                        <p id="movie-duration">1hr 21min</p>
+
+                                        <p id="movie-type">CC</p>
+
+                                        <p id="movie-dept">Action</p>
+                                    </div>
+                                    <p id="description">
+                                        That is, until she plays her first game
+                                        of chess. While working as a<br />
+                                        handyman in an old house, an ex-convict
+                                        discovers countless horrors<br />
+                                        revolving around a town’s twisted
+                                        secrets.
+                                    </p>
+                                </div>
+                                <div class="overlay">
+                                    <button class="watch-now">Watch Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="assets/slide02.jpg"
+                                class="d-block w-100"
+                                alt="Slider"
+                            />
+                            <div class="overlay">
+                                <div class="movie-wrap">
+                                    <h6>new releases</h6>
+                                    <h2>sovit: the cold war</h2>
+                                    <div class="movie-info">
+                                        <span id="movie-rate">
+                                            <span id="rate"> 7.1 </span>
+                                        </span>
+                                        <span>
+                                            <span id="imdb-stick"> IMDb </span>
+                                            Score
+                                        </span>
+                                        <p id="movie-date">2019</p>
+                                        <p id="quality-wrap">
+                                            <span id="movie-quality"> 8K </span>
+                                            <span id="movie-watch">
+                                                Ultra HD
+                                            </span>
+                                        </p>
+
+                                        <p id="movie-duration">1hr 45min</p>
+
+                                        <p id="movie-type">CC</p>
+
+                                        <p id="movie-dept">War</p>
+                                    </div>
+                                    <p id="description">
+                                        Her senses grow sharper, her thinking
+                                        clearer, and for the first time in<br />
+                                        her life she feels herself fully in
+                                        control. By the <u>age of sixteen</u>,
+                                        she's<br />
+                                        competing for the U.S.
+                                    </p>
+                                </div>
+                                <div class="overlay">
+                                    <button class="watch-now">Watch Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="assets/slide03.jpg"
+                                class="d-block w-100"
+                                alt="Slider"
+                            />
+                            <div class="overlay">
+                                <div class="movie-wrap">
+                                    <h6>new releases</h6>
+                                    <h2>future hell</h2>
+                                    <div class="movie-info">
+                                        <span id="movie-rate">
+                                            <span id="rate"> 5.6 </span>
+                                        </span>
+                                        <span>
+                                            <span id="imdb-stick"> IMDb </span>
+                                            Score
+                                        </span>
+                                        <p id="movie-date">2020</p>
+                                        <p id="quality-wrap">
+                                            <span id="movie-quality"> 4K </span>
+                                            <span id="movie-watch">
+                                                Ultra HD
+                                            </span>
+                                        </p>
+
+                                        <p id="movie-duration">1hr 33min</p>
+
+                                        <p id="movie-type">CC</p>
+
+                                        <p id="movie-dept">Adventure</p>
+                                    </div>
+                                    <p id="description">
+                                        Based on Edgar Allan Poe's classic
+                                        bone-chilling tale,<br />
+                                        will have you sleeping with the lights
+                                        on for years to come. Nine year-<br />old
+                                        orphan <strong>Beth Harmon</strong> is
+                                        quiet
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="overlay">
+                                <button class="watch-now">Watch Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="streaming-wrapper">
+                <div class="container">
+                    <h6>online streaming</h6>
+                    <h2>Watch Shows Online</h2>
+
+                    <div class="row movies-cont">
+                        <div class="col-lg-3 col-md-4 movie-d">
+                            <div class="poster-im">
+                                <img src="assets/tv-shows01.jpg" alt="movie" />
+                                <div class="overlay">
+                                    <div class="content">
+                                        <p>Thinking You</p>
+                                        <span>
+                                            <button>
+                                                <i class="fa fa-play"></i>
+                                            </button>
+                                            <p>5 Seasons - 2019</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 movie-d">
+                            <div class="poster-im">
+                                <img src="assets/tv-shows02.jpg" alt="movie" />
+                                <div class="overlay">
+                                    <div class="content">
+                                        <p>Civil War</p>
+                                        <span>
+                                            <button>
+                                                <i class="fa fa-play"></i>
+                                            </button>
+                                            <p>7 Seasons - 2017</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 movie-d">
+                            <div class="poster-im">
+                                <img src="assets/tv-shows03.jpg" alt="movie" />
+                                <div class="overlay">
+                                    <div class="content">
+                                        <p>Best Game</p>
+                                        <span>
+                                            <button>
+                                                <i class="fa fa-play"></i>
+                                            </button>
+                                            <p>1 Season - 2010</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 movie-d">
+                            <div class="poster-im">
+                                <img src="assets/tv-shows04.jpg" alt="movie" />
+                                <div class="overlay">
+                                    <div class="content">
+                                        <p>Antoshka</p>
+                                        <span>
+                                            <button>
+                                                <i class="fa fa-play"></i>
+                                            </button>
+                                            <p>2 Season - 2018</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row stream-d">
+                        <div class="col-lg-6">
+                            <img src="assets/side-image01.png" alt="" />
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <p id="heading">
+                                Best pick for hassle-free
+                                <span>streaming</span> experience.
+                            </p>
+                            <div class="item">
+                                <div class="pic">
+                                    <img src="assets/icon01.png" alt="" />
+                                </div>
+                                <div class="inf">
+                                    <h3>Access while traveling</h3>
+                                    <p>
+                                        Keep access to your entertainment
+                                        content while roaming the world.Pick
+                                        from thousands.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pic">
+                                    <img src="assets/icon02.png" alt="" />
+                                </div>
+                                <div class="inf">
+                                    <h3>Stream with no interruptions</h3>
+                                    <p>
+                                        Pause for snacks, not buffering. Stream
+                                        smoothly with our lightning-fast
+                                        NordLynx protocol network.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pic">
+                                    <img src="assets/icon03.png" alt="" />
+                                </div>
+                                <div class="inf">
+                                    <h3>Stay secure at all times</h3>
+                                    <p>
+                                        Securely access and enjoy your favorite
+                                        content, even on public Wi-Fi. Your
+                                        connection
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="movies-wrapper pt-5">
+                <div class="container-fluid">
+                    <div class="head-d">
+                        <h6>online streaming</h6>
+                        <h2>Watch Shows Online</h2>
+                    </div>
+                    <div class="row mov-con">
+                        <div class="col-lg-2 col-md-6 pt-5 cont">
+                            <div class="item-img">
+                                <img src="assets/movies35.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Adventure</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Future Hell</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5">
+                            <div class="item-img">
+                                <img src="assets/movies34.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">War</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Soviet : The Cold War</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5">
+                            <div class="item-img">
+                                <img src="assets/movies32.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Thriller</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Spaceman</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5">
+                            <div class="item-img">
+                                <img src="assets/movies30.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Romance</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Colors of Pain</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5">
+                            <div class="item-img">
+                                <img src="assets/movies29.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Horror</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Green Magic World</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5 cont">
+                            <div class="item-img">
+                                <img src="assets/movies28.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Adventure</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Future Hell</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5">
+                            <div class="item-img">
+                                <img src="assets/movies27.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">War</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Soviet : The Cold War</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5">
+                            <div class="item-img">
+                                <img src="assets/movies26.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Thriller</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Spaceman</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5">
+                            <div class="item-img">
+                                <img src="assets/movies25.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">Sci Fi</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Voices</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5">
+                            <div class="item-img">
+                                <img src="assets/movies24.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Romance</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Colors of Pain</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5">
+                            <div class="item-img">
+                                <img src="assets/movies24.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Romance</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Colors of Pain</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 pt-5">
+                            <div class="item-img">
+                                <img src="assets/movies24.jpg" alt="" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Romance</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Colors of Pain</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mov-info-con">
+                        <button>browse all movies</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="advert-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 adv-col">
+                            <h4>Trusted by tech experts and real users</h4>
+                            <q>
+                                As VPN services go, it's hard to beat NordVPN.
+                                It has a large and diverse collection of
+                                servers, an excellent collection of advanced
+                                features, strong privacy and security
+                            </q>
+                            <div class="adv-ow">
+                                <img src="assets/avatar01.jpg" alt="" />
+                                <img
+                                    id="brand"
+                                    src="assets/brand01.jpg"
+                                    alt=""
+                                />
+                                <div class="adv-ow-in">
+                                    <span>Max Eddy</span>
+                                    <span id="ow-pos"
+                                        >Software analyst, PCMag</span
+                                    >
+                                </div>
+                                <div class="overlay"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="assets/side-image02.png" alt="" />
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section class="plans-wrapper">
+                <div class="p-cont">
+                    <video autoplay muted loop id="myVideo">
+                        <source src="assets/video01.mp4" type="video/mp4" />
+                    </video>
+                    <div class="p-overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 plan-desc">
+                                    <h5>START SECURE BROWSING</h5>
+                                    <p>Ready to Grab the Deal?</p>
+                                </div>
+                                <div class="col-lg-4 col-md-7 plan-part">
+                                    <div class="plan-cont">
+                                        <img src="assets/icon04.png" alt="" />
+                                        <span id="duration">1-month plan</span>
+                                        <span class="curr-p">
+                                            <span id="curr-type"> $ </span>
+                                            <span>9.99</span>
+                                        </span>
+                                        <span id="dur">per month</span>
+                                        <button>get the deal</button>
+                                        <p>
+                                            <span
+                                                class="fa fa-check-circle"
+                                            ></span>
+                                            30-days money-back <br />guarantee
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-7 plan-part">
+                                    <div class="plan-cont">
+                                        <img src="assets/icon05.png" alt="" />
+                                        <span id="duration">12-month plan</span>
+                                        <span class="curr-p">
+                                            <span id="curr-type"> $ </span>
+                                            <span><b>3.99</b></span>
+                                        </span>
+                                        <span id="dur">per month</span>
+                                        <span id="offer"> Save 68% </span>
+                                        <p id="price-off">
+                                            <span> $286.80 </span>
+                                            $89.00 for the first 2 years
+                                        </p>
+                                        <button>get the deal</button>
+                                        <p>
+                                            <span
+                                                class="fa fa-check-circle"
+                                            ></span>
+                                            30-days money-back <br />guarantee
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-7 plan-part">
+                                    <div class="plan-cont">
+                                        <img src="assets/icon06.png" alt="" />
+                                        <span id="duration">6-month plan</span>
+                                        <span class="curr-p">
+                                            <span id="curr-type"> $ </span>
+                                            <span>6.99</span>
+                                        </span>
+                                        <span id="dur">per month</span>
+                                        <button>get the deal</button>
+                                        <p>
+                                            <span
+                                                class="fa fa-check-circle"
+                                            ></span>
+                                            30-days money-back <br />guarantee
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="directors-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 subs-wrap">
+                            <h5>Start for your first 30 days.</h5>
+                            <p>
+                                Ready to watch? Enter your email to create or
+                                restart your membership.
+                            </p>
+                            <div class="subs-d">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="Type your e-mail address"
+                                    id="email-field"
+                                />
+                                <button>get started</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 dir-wrap">
+                            <div class="row">
+                                <div class="col-lg-4 ask-d">
+                                    <h5>
+                                        Questions?
+                                        <span> Call 0850-380-6444 </span>
+                                    </h5>
+                                    <p>
+                                        Format for custom post types that are
+                                        not book or you can use else if to
+                                        specify a second post type the same way
+                                        as above.
+                                    </p>
+
+                                    <div class="lang">
+                                        <select name="lang" id="lang-opt">
+                                            <option value="en">English</option>
+                                            <option value="ar">Arabic</option>
+                                        </select>
+                                        <span>
+                                            <i class="fa fa-globe"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 links-wrap">
+                                    <div class="row">
+                                        <div class="col-lg-4 link-item">
+                                            <h6>DIGIFLEX</h6>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Digiflex</a>
+                                                </li>
+                                                <li><a href="#">Devices</a></li>
+                                                <li><a href="#">Blog</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 link-item">
+                                            <h6>SUPPORT</h6>
+                                            <ul>
+                                                <li><a href="#">FAQ</a></li>
+                                                <li>
+                                                    <a href="#">Help Center</a>
+                                                </li>
+                                                <li><a href="#">Support</a></li>
+                                                <li><a href="#">Account</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 link-item">
+                                            <h6>POLICIES</h6>
+                                            <ul>
+                                                <li>
+                                                    <a href="#"
+                                                        >Privacy Policy</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a href="#">Terms od Use</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        >Legal Noticies</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="footer-wrapper"></div>
+            </footer>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

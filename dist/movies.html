@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movies</title>
+        <link rel="stylesheet" href="css/font-awesome.css" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/jquerymin.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid movies-wrapper-d">
+            <div class="heading-wrap">
+                <div class="row">
+                    <div class="col-lg-12 page-head">
+                        <img src="assets/page-header-bg.jpg" alt="" />
+                        <div class="overlay">
+                            <div class="cont">
+                                <h2>Movies <span>.</span></h2>
+                                <p>
+                                    All new released Hollywood and world movies
+                                    here to watch
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="movies-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 shuffle-list">
+                            <ul class="list-unstyled">
+                                <li data-class=".page_one" class="active">1</li>
+                                <li data-class=".page_two">2</li>
+                                <li data-class=".page_three">3</li>
+                                <li data-class=".page_four">4</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row shuffle-items">
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies35.jpg" alt="" class="page_one"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Adventure</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Future Hell</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies34.jpg" alt="" class="page_one"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">War</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Soviet : The Cold War</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies32.jpg" alt="" class="page_one"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Thriller</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Spaceman</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies30.jpg" alt="" class="page_one"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Romance</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Colors of Pain</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies29.jpg" alt="" class="page_one" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Horror</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Green Magic World</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies28.jpg" alt="" class="page_one" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Adventure</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Future Hell</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies27.jpg" alt="" class="page_one" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">War</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Soviet : The Cold War</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies26.jpg" alt="" class="page_one"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Thriller</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Spaceman</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies25.jpg" alt="" class="page_one" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">Sci Fi</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Voices</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies24.jpg" alt="" class="page_one"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Romance</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Colors of Pain</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row shuffle-items">
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies25.jpg" alt="" class="page_two"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Action</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Freedom Fighters</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies24.jpg" alt="" class="page_two"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Adventure</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Patriot on Redline</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies23.jpg" alt="" class="page_two"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Action</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Dancing with Red</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies22.jpg" alt="" class="page_two"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Western</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Unlosted Man</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies21.jpg" alt="" class="page_two" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">War</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">The Love of Heart</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies20.jpg" alt="" class="page_two" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Thriller</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">The Space Warriors</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies19.jpg" alt="" class="page_two" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">Sci Fi</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Furies Drivers</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies18.jpg" alt="" class="page_two"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Horror</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Autoshop Masters</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies17.jpg" alt="" class="page_two" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">Drama</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Allways Happiness</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies16.jpg" alt="" class="page_two"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Crime</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Dark Wolf Girl</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row shuffle-items">
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies15.jpg" alt="" class="page_three"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Action</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Deep Darkness</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies14.jpg" alt="" class="page_three"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Adventure</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Patriot on Redline</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies13.jpg" alt="" class="page_three"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Action</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Dancing with Red</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies05.jpg" alt="" class="page_three"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Western</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Unlosted Man</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies04.jpg" alt="" class="page_three" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">War</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">The Love of Heart</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies03.jpg" alt="" class="page_three" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Thriller</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">The Space Warriors</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies02.jpg" alt="" class="page_three" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">Sci Fi</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Furies Drivers</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies01.jpg" alt="" class="page_three"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Horror</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Autoshop Masters</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies27.jpg" alt="" class="page_three" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">Drama</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Allways Happiness</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies06.jpg" alt="" class="page_three"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Crime</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Dark Wolf Girl</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row shuffle-items">
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies08.jpg" alt="" class="page_four" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Thriller</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">The Space Warriors</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies09.jpg" alt="" class="page_four" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">Sci Fi</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Furies Drivers</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies10.jpg" alt="" class="page_four"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Horror</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Autoshop Masters</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies11.jpg" alt="" class="page_four" />
+                            </div>
+                            <div class="mov-i">
+                                <span>2019</span>
+                                <span id="mov-t">Drama</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Allways Happiness</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pt-5 m-item">
+                            <div class="item-img">
+                                <img src="assets/movies12.jpg" alt="" class="page_four"/>
+                            </div>
+                            <div class="mov-i">
+                                <span>2020</span>
+                                <span id="mov-t">Crime</span>
+                                <span id="mov-d">TV-G</span>
+                                <h5>
+                                    <a href="#">Dark Wolf Girl</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

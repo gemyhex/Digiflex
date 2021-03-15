@@ -1,0 +1,82 @@
+.movies-wrapper-d{
+    .page-head{
+        position: relative;
+        padding: 0;
+        height: 400px;
+        
+        .overlay {
+            .cont{
+                position: absolute;
+                bottom: 40%;
+                left: 15%;
+                color: #fff;
+                h2{
+                    font-size: 3rem;
+                    font-weight: bolder;
+                    span{
+                        color: red;
+                    }
+                }
+                p{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .movies-wrap{
+        .shuffle-list{
+            ul{
+                width: fit-content;
+                display: flex;
+                border: 1px solid #333;
+                margin: 10px auto;
+                li{
+                    height: 100%;
+                    border: 1px solid #333;
+                    padding: 15px 25px;
+                    &:hover,
+                    &.active{
+                        cursor: pointer;
+                        background: red;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .shuffle-items{
+            transition: all 1s ease;
+            .m-item{
+                .mov-i {
+                    padding-top: 10px;
+            
+                    span {
+                        font-size: 0.8rem;
+                        font-weight: bold;
+                    }
+                    #mov-t {
+                        color: red;
+                        font-weight: bold;
+                        padding-left: 5%;
+                    }
+                    #mov-d {
+                        color: #d4d4d4;
+                        border: 1px solid #a3a3a8;
+                        float: right;
+                        padding: 1px 2px;
+                        font-size: 0.6rem;
+                        font-weight: bold;
+                    }
+                    h5 {
+                        a {
+                            color: #333;
+                            font-weight: bold;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+        }
+}

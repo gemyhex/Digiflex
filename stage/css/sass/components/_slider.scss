@@ -1,0 +1,137 @@
+.slider-wrapper {
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 111;
+    .carousel {
+        
+        .carousel-indicators{
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 50%;
+            left: 90%;
+            margin: 0;
+            display: block;
+            li{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+            }
+        }
+        .carousel-inner {
+            .carousel-item {
+                
+                .overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba($color: #000000, $alpha: 0.1);
+
+                    .watch-now{
+                        width: 175px;
+                        height: 65px;
+                        background: red;
+                        color: #fff;
+                        position: absolute;
+                        top: 60%;
+                        left: 15%;
+                        border: none;
+                        font-weight: bold;
+                        font-size: 17px;
+                        text-transform: uppercase;
+
+                        &:hover{
+                            border: 1px solid red;
+                            background: black;
+
+                            transition: 0.5s all ease;
+                        }
+                    }
+                    
+                }
+
+                .movie-wrap {
+                    position: absolute;
+                    top: 30%;
+                    left: 15%;
+                    text-align: left;
+
+                    h6 {
+                        color: rgba(180, 180, 180, 0.459);
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        padding: 2px 5px;
+                        text-transform: uppercase;
+                        &:before {
+                            content: "|";
+                            color: red;
+                        }
+                    }
+
+                    h2 {
+                        font-size: 4rem;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+                    .movie-info {
+                        display: flex;
+                        padding-top: 10px;
+                        p {
+                            margin-left: 20px;
+                        }
+                        #movie-rate{
+                            width: fit-content;
+                            height: fit-content;
+                            display: flex;
+                            border-radius: 50%;
+                        }
+                        #rate{
+                            border-bottom: 3px solid green;
+                            text-align: center;
+                            font-weight: bold;
+                        }
+                        #imdb-stick {
+                            background: rgb(224, 174, 6);
+                            color: black;
+                            padding: 2px;
+                            font-weight: bold;
+                            font-size: 0.8rem;
+                            margin-left: 4px;
+                        }
+                        #movie-date {
+                            font-weight: bold;
+                        }
+                        #quality-wrap {
+                            border: 2px solid #fff;
+                            font-weight: 500;
+                        }
+                        #movie-watch {
+                            background: #fff;
+                            color: #000;
+                        }
+                        #movie-type {
+                            border: 2px solid #fff;
+                            border-radius: 25px;
+                            font-size: 0.8rem;
+                            font-weight: bold;
+                            padding: 2px 6px;
+                        }
+                        #movie-dept {
+                            color: red;
+                            font-weight: bold;
+                            font-size: 18px;
+                        }
+                    }
+                    #description {
+                        padding-top: 11px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
