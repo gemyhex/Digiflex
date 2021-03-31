@@ -1,111 +1,102 @@
-.page-wrapper {
-    position: relative;
-    .header-wrapper {
-        width: 100%;
-        background: transparent;
-        padding: 1px 5%;
-        position: absolute;
-        top: 25px;
-        z-index: 9999;
-        
-        i{
-            font-size: 20px;
+.header-wrapper {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    z-index: 999;
+    padding: 20px;
+    .top-nav {
+        display: flex;
+        .logo{
+            img {
+                width: 50px;
+                height: 50px;
+
+                &:hover{
+                    animation: logoShake 0.7s infinite;
+                }
+            }
         }
 
-        .logo{
-            padding-top: 10px;
-            max-width: 80px;
-            max-height: 60px;
-            img{
-                width: 100%;
-                height: 100%;
-            }
-            &:hover{
-                animation: logoShake 0.5s infinite;
-            }
-        }
-        
-        .links{
+        .links {
             width: fit-content;
             height: fit-content;
             text-align: center;
             padding-top: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            ul{
+            margin: 0 auto;
+            ul {
                 width: fit-content;
                 margin: 0;
-                li{
+                li {
                     display: inline-block;
                     text-transform: uppercase;
                     padding: 5px 15px;
-                    a{
+                    a {
                         color: white;
                         text-decoration: none;
                         font-weight: bold;
-                        &:hover{
+                        &:hover {
                             color: rgb(233, 1, 1);
                             transition: all 0.5s ease;
                         }
                     }
                 }
             }
-            .l-links{
-                
-            }
-            .r-links{
-                display: flex;
-                justify-content: end;
-                align-items: flex-end;
-            }
         }
-
-        .user-options{
+        .user-options {
             width: fit-content;
             height: fit-content;
             color: white;
-            padding-top: 10px;
-            ul{
-                li{
+            padding-top: 12px;
+            ul {
+                li {
                     display: inline-block;
                     text-transform: uppercase;
                     text-align: center;
                     padding: 2px 8px;
 
-                    a{
+                    a {
                         color: white;
                         text-decoration: none;
                         font-weight: bold;
                     }
-                    &:hover{
-                        a{
+                    &:hover {
+                        a {
                             color: rgb(233, 1, 1);
                             transition: all 0.5s ease;
                         }
                     }
                 }
-                #user-logo{
-                    width: 30px;
-                    height: 35px;
-                    padding: 5px;                    
-                }
             }
+        }
+        .icon {
+            width: 30px;
+            height: 20px;
+            display: none;
+            color: white;
+            font-size: 1.75rem;
+            position: absolute;
+            right: 1rem;
+            outline: none;
+            text-decoration: none;
         }
     }
 }
 
-@keyframes logoShake{
-    25%{
-        transform: scale(1.1,1.1);
+@keyframes logoShake {
+    25% {
+        transform: scale(1.1, 1.1);
     }
-    50%{
-        transform: scale(1.2,1.2);
+    50% {
+        transform: scale(1.2, 1.2);
     }
-    75%{
-        transform: scale(1.1,1.1);
+    75% {
+        transform: scale(1.1, 1.1);
     }
-    100%{
-        transform: scale(1,1);
+    100% {
+        transform: scale(1, 1);
     }
 }

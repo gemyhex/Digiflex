@@ -37,3 +37,19 @@ img{
         }
     }
 }
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e65151;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

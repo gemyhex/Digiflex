@@ -14,13 +14,11 @@
     <body>
         <div class="container-fluid-lg page-wrapper">
             <header class="header-wrapper">
-                <div class="row">
-                    <div class="col-lg-1 logo">
-                        <a href="index.html">
-                            <img src="assets/logo.png" alt="Digiflex" />
-                        </a>
-                    </div>
-                    <div class="col-lg-9 links">
+                <div class="top-nav" id="topnav">
+                    <a href="index.html" class="logo">
+                        <img src="assets/logo.png" alt="Digiflex" />
+                    </a>
+                    <div class="links">
                         <ul>
                             <li><a href="index.html" class="active">home</a></li>
                             <li><a href="movies.html">movies</a></li>
@@ -28,7 +26,7 @@
                             <li><a href="blog.html">blog</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 user-options">
+                    <div class="user-options">
                         <ul>
                             <li>
                                 <a href="#"><i class="fa fa-search"></i></a>
@@ -37,13 +35,41 @@
                                 <a href="#"><i class="fa fa-bookmark"></i></a>
                             </li>
                             <li><a href="login.html">account</a></li>
-                            <li id="user-logo">
-                                <a href="#"><i class="fa fa-user"></i></a>
-                            </li>
+                            
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                </div>
+            </header>
+
+            <section class="side-wrapper">
+                <span id="closeMenu" onclick="closeMenu();">
+                    <i class="fa fa-times"></i>
+                </span>
+                <div class="side-menu">
+                    <select name="search" id="search">
+                        <option value="movie">Movie</option>
+                        <option value="show">TV Show</option>
+                    </select>
+                    <input type="text" placeholder="Search here">
+                    <button>find</button>
+                    <div class="account">
+                        <a href="#"><span class="fa fa-user"></span> Account</a>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="index.html" class="active">home</a></li>
+                            <li><a href="movies.html">movies</a></li>
+                            <li><a href="tvshows.html">tv shows</a></li>
+                            <li><a href="blog.html">blog</a></li>
                         </ul>
                     </div>
                 </div>
-            </header>
+            </section>
+            
             <section class="slider-wrapper">
                 <div
                     id="carouselExampleIndicators"
@@ -82,14 +108,11 @@
                                         </span>
                                         <span>
                                             <span id="imdb-stick"> IMDb </span>
-                                            Score
+                                            
                                         </span>
                                         <p id="movie-date">2020</p>
                                         <p id="quality-wrap">
-                                            <span id="movie-quality"> 4K </span>
-                                            <span id="movie-watch">
-                                                Ultra HD
-                                            </span>
+                                            4K
                                         </p>
 
                                         <p id="movie-duration">1hr 21min</p>
@@ -106,8 +129,6 @@
                                         revolving around a town’s twisted
                                         secrets.
                                     </p>
-                                </div>
-                                <div class="overlay">
                                     <button class="watch-now">Watch Now</button>
                                 </div>
                             </div>
@@ -128,14 +149,11 @@
                                         </span>
                                         <span>
                                             <span id="imdb-stick"> IMDb </span>
-                                            Score
+                                            
                                         </span>
                                         <p id="movie-date">2019</p>
                                         <p id="quality-wrap">
                                             <span id="movie-quality"> 8K </span>
-                                            <span id="movie-watch">
-                                                Ultra HD
-                                            </span>
                                         </p>
 
                                         <p id="movie-duration">1hr 45min</p>
@@ -152,10 +170,9 @@
                                         she's<br />
                                         competing for the U.S.
                                     </p>
-                                </div>
-                                <div class="overlay">
                                     <button class="watch-now">Watch Now</button>
                                 </div>
+
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -174,14 +191,11 @@
                                         </span>
                                         <span>
                                             <span id="imdb-stick"> IMDb </span>
-                                            Score
+                                            
                                         </span>
                                         <p id="movie-date">2020</p>
                                         <p id="quality-wrap">
                                             <span id="movie-quality"> 4K </span>
-                                            <span id="movie-watch">
-                                                Ultra HD
-                                            </span>
                                         </p>
 
                                         <p id="movie-duration">1hr 33min</p>

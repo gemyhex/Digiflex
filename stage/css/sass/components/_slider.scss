@@ -11,7 +11,7 @@
             height: fit-content;
             position: absolute;
             top: 50%;
-            left: 90%;
+            left: 95%;
             margin: 0;
             display: block;
             li{
@@ -36,9 +36,7 @@
                         height: 65px;
                         background: red;
                         color: #fff;
-                        position: absolute;
-                        top: 60%;
-                        left: 15%;
+                        
                         border: none;
                         font-weight: bold;
                         font-size: 17px;
@@ -59,7 +57,7 @@
                     top: 30%;
                     left: 15%;
                     text-align: left;
-
+                    
                     h6 {
                         color: rgba(180, 180, 180, 0.459);
                         font-size: 1.2rem;
@@ -80,6 +78,7 @@
                     .movie-info {
                         display: flex;
                         padding-top: 10px;
+                        overflow-x: hidden;
                         p {
                             margin-left: 20px;
                         }
@@ -90,11 +89,15 @@
                             border-radius: 50%;
                         }
                         #rate{
+                            width: fit-content;
+                            height: fit-content;
                             border-bottom: 3px solid green;
                             text-align: center;
                             font-weight: bold;
                         }
                         #imdb-stick {
+                            width: fit-content;
+                            height: fit-content;
                             background: rgb(224, 174, 6);
                             color: black;
                             padding: 2px;
@@ -103,17 +106,22 @@
                             margin-left: 4px;
                         }
                         #movie-date {
+                            width: fit-content;
+                            height: fit-content;
                             font-weight: bold;
                         }
                         #quality-wrap {
+                            width: fit-content;
+                            height: fit-content;
                             border: 2px solid #fff;
-                            font-weight: 500;
-                        }
-                        #movie-watch {
+                            font-weight: 700;
                             background: #fff;
                             color: #000;
                         }
+
                         #movie-type {
+                            width: fit-content;
+                            height: fit-content;
                             border: 2px solid #fff;
                             border-radius: 25px;
                             font-size: 0.8rem;
