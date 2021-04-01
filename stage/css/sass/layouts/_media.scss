@@ -70,3 +70,17 @@
         }
     }
 }
+
+@media (max-width: 767px){
+    .directors-wrapper{
+        .subs-d{
+            input{
+                width: 100% !important;
+            }
+            button{
+                width: 40% !important;
+                margin-top: 10px;
+            }
+        }
+    }
+}
